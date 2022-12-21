@@ -2,7 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Jeyhuns CV</title> <!---Kommentar-->
+    <title>Jeyhuns CV</title>
+    <link rel="stylesheet" href="css/styles.css">
+<!---
+    <style>
+
+        body {
+            background-color: #FFF5E4;
+        }
+        hr {
+            border-style: dotted none none;
+            width: 20%;
+            border-width: 5px;
+            border-color: #FF9494;
+        }
+
+    </style>
+    -->
 </head>
 <body>
     <nav>
@@ -10,17 +26,61 @@
     <a href="contact.html">Kontakta mig</a>
     </nav>
     <br>
-    <img src="images/owl.jpg" width="200" height="200">
-    <h1>Jeyhun Mansurov</h1>
-    <h2>Student och studerande på IT-Högskolan</h2>
-    <p>Jag studerar på <strong>IT-Högskolan</strong> och har klarat C# och Databashantering kursen. Nu kör vi <em>Webbutveckling</em>.</p>
-    <hr size="3" noshade>
-    <h3>Utbildningar</h3>
+    <table cellspacing = "2">
+        <tr>
+            <td><img src="images/owl.jpg" width="200" height="200"></td>
+            <td>
+                <h1 class="maintitle">Jeyhun Mansurov</h1>
+                <h2 class="subtitles">Student och studerande på IT-Högskolan</h2>
+                <p id="p1">Jag studerar på <strong>IT-Högskolan</strong> och har klarat C# och Databashantering kursen. Nu kör vi <em>Webbutveckling</em>.</p>
+                <p id="p2">Jag älskar H<sub>2</sub>O och utöver det så gillar jag även matten x<sup>x</sup></p>
+            </td>
+        </tr>
+    </table >
+    <hr>
+    <h1 class="subtitles">Utbildningar</h1>
     <ul>
         <li>Teknikprogrammet</li>
         <li>Kemiingenjör</li>
         <li>Bartenderutbildning</li>
     </ul>
-    <hr size="3" noshade>
+    <hr >
+    <h1 class="subtitles">Arbetslivserfarenhet</h1>
+    <table bgcolor="green" border="1">
+        <tr>
+            <th>Datum</th>
+            <th>Arbetsuppgift</th>
+        </tr>
+        <tr>
+            <td>2014-2016, 2021</td>
+            <td bgcolor="blue">Bartender</td>
+        </tr>
+        <tr>
+            <td>2018-2020</td>
+            <td>Brevbärare</td>
+        </tr>
+    </table>
+    <hr>
+    <h1 class="subtitles">Skills</h1>
+    <table>
+        <tr>
+            <td>C#</td>
+            <td><progress max="100" value="66"></progress></td>
+        </tr>
+        <tr>
+            <td>SQL</td>
+            <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Javascript</td>
+            <td>⭐⭐</td>
+        </tr>
+    </table>
+    <hr >
+
+
+    <video autoplay controls muted loop src="images/big_buck_bunny_480p_30mb.mp4">
+        
+    </video>
 </body>
 </html>

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Kontakta mig</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <nav>
@@ -15,7 +16,7 @@
         <li>0761234567</li>
         <li>HTMLgränd 69</li>
     </ul>
-    <hr size="3" noshade>
+    <hr >
     <form method="post">
         <label>Your name</label>
         <input type="text">
@@ -28,5 +29,15 @@
         <br>
         <input type="submit">
     </form>
+    <hr >
+    <fieldset>
+        <legend>Hur hittade du mig?</legend>
+        <input list="findme" type="text">
+        <datalist id="findme">
+            <option value="Facebook Ads">
+            <option value="Through a friend">
+            <option value="A newspaper">
+        </datalist>
+    </fieldset>
 </body>
 </html>

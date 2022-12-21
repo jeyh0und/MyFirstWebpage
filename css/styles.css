@@ -1,0 +1,40 @@
+/* ELEMENT SELECTORS */
+
+body {
+    background-color: #FFF5E4;
+}
+
+hr {
+    border-style: dotted none none;
+    width: 20%;
+    border-width: 5px;
+    border-color: #FFD1D1;
+}
+
+h1 {
+    color: #FF9494;
+}
+
+h2 {
+    color: #FF9494;
+}
+ /* CLASS SELECTORS */
+
+.subtitles {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.maintitle {
+    font-family: cursive;
+    font-style: italic;
+}
+
+/* ID SELECTORS */
+
+#p1 {
+    color: hotpink;
+}
+
+#p2 {
+    color: teal;
+}
